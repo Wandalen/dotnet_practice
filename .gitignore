@@ -1,0 +1,29 @@
+# Ignore Visual Studio files
+.vscode/
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore build output
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+
+# Ignore user-specific files and settings
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore .NET Core dependencies
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.swp
+*~
